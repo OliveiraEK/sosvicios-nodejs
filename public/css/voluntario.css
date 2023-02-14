@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+.bgSizeContain {
+    height: 500px;
+    padding-bottom: 600px;
+    background-image: url(/IMAGES/tratvoluntario.jpg);
+    background-size: cover;
+    border: 2px solid darkgray;
+    color: #000; text-shadow: 1px 1px 0 #fff;
+    background-repeat: no-repeat;
+    background-position: 0px;
+  }
+
+section img{
+    height: 700px;
+    width: 950px;
+    position: relative;
+    left: 15%;
+}
+.hrTXT{
+    background-color: #caebf2;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    border-radius: 100px;
+    margin-left: 520px;
+}
+
+.texto{
+    width: 1000px;
+    text-align: justify;
+    
+    padding: 20px;
+    margin-left: 180px;
+}
+
+#tratamento_tittle{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+#tratamentos_tittle{
+    font-size: 40px;
+    margin-left: 580px;
+    margin-bottom: 70px;
+}
+
+#tratamentos_tittle1{
+    font-size: 40px;
+    margin-left: 615px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+#navbarBasicExample{
+    margin-top: 30px;
+}
