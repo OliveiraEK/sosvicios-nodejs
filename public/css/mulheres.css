@@ -1,15 +1,19 @@
 body{
     background-color: rgb(231, 231, 231);
 }
+#navbarBasicExample{
+    margin-top: 15px;
+}
 .bgSizeContain {
     height: 500px;
     padding-bottom: 500px;
-    background-image: url(/IMAGES/mulheres-dependentes-quimicas-1.jpg);
+    background-image: url(/IMAGES/tratMulher.jpg);
     background-size: cover;
     border: 2px solid darkgray;
     color: #000; text-shadow: 1px 1px 0 #fff;
     background-repeat: no-repeat;
-    background-position: 0px;
+    background-position-x: 0px;
+    offset-position: 100px;
   }
 
 section img{
@@ -55,6 +59,27 @@ section img{
     margin-top: 40px;
 }
 
-#navbarBasicExample{
-    margin-top: 30px;
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.753);
+    text-decoration: none;
+    border-radius: 100px;
+}
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
 }

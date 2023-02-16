@@ -44,6 +44,7 @@ export const termos = (req:Request, res:Response) =>{
     })
 }
 
+
 export const voluntario = (req:Request, res:Response) =>{
     res.render('pages/voluntario',{
 
