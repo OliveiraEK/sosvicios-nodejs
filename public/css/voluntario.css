@@ -1,5 +1,6 @@
-body{
+html, body{
     background-color: rgb(231, 231, 231);
+    scroll-behavior: smooth;
 }
 #navbarBasicExample{
     margin-top: 15px;

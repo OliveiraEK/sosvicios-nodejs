@@ -1,17 +1,19 @@
-body{
+html, body{
     background-color: rgb(231, 231, 231);
+    scroll-behavior: smooth;
 }
 #navbarBasicExample{
     margin-top: 15px;
 }
 .bgSizeContain {
-    height: 500px;
+    
     background-image: url(/IMAGES/tratAlcoolismo.jpg);
-    background-size: 1400px;
+    background-image: cover;
     border: 2px solid darkgray;
     color: #000; text-shadow: 1px 1px 0 #fff;
     background-repeat: no-repeat;
     padding-bottom: 700px;
+    background-size: 2000px 1000px;
   }
 
 section img{

@@ -15,7 +15,7 @@
         <div class="field">
           <label class="label">Nome</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-rounded has-text-grey-light" type="" placeholder="Ex: Alex Ferguson" value="">
+            <input class="input is-rounded has-text-black-light" type="" placeholder="Ex: SOS Vícios" value="" required>
             <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
             </span>
@@ -27,8 +27,8 @@
         <div class="field">
           <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-rounded has-text-grey-light" type="email" placeholder="Ex: alex-f@outlook.com"
-              value="">
+            <input class="input is-rounded has-text-black-light" type="email" placeholder="Ex: sosvicios@gmail.com"
+               required>
             <span class="icon is-small is-left">
               <i class="fas fa-envelope has"></i>
             </span>
@@ -39,7 +39,7 @@
         <div class="field">
           <label class="label">Telefone</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-rounded has-text-grey-light" type="text" placeholder="Digite seu telefone" value="">
+            <input class="input is-rounded has-text-black-light" type="text" placeholder="Digite seu telefone" value="" required="">
             <span class="icon is-small is-left">
               <i class="fa-solid fa-phone-flip"></i>
             </span>
@@ -56,7 +56,7 @@
                 <option value="Assunto" disabled selected="selected">Assunto</option>
                 <option value="Reclamações/Elogios">Reclamações/Elogios</option>
                 <option value="Duvidas">Duvidas</option>
-                <option value="O que podemos melhorar">O que podemos melhorar</option>
+                <option value="O que podemos melhorar">O que podemos melhorar?</option>
 
               </select>
             </span>
@@ -71,7 +71,7 @@
         <div class="field">
           <label class="label">Mensagem</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Escreva"></textarea>
+            <textarea class="textarea"  placeholder="Escreva" required></textarea>
           </div>
         </div>
 
@@ -94,6 +94,8 @@
         <div class="field is-grouped">
           <div class="control">
             <button onclick="abriralerta()" class="button is-link"> Enviar</button>
+
+            
 
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
             <script>

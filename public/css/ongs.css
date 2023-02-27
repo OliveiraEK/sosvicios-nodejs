@@ -19,5 +19,11 @@ section img{
     margin-bottom: 70px;
     
 }
-
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+    margin-top: 700px;
+}
 

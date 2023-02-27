@@ -1,5 +1,5 @@
 # Projeto TI104 NodeJs
-Projeto Techno Growing NodeJs
+Projeto SOS
 
 ## Pré-requisitos globais:
 'npm i -g nodemon typescript'
