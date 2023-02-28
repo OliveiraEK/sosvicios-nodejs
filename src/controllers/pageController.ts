@@ -56,3 +56,9 @@ export const ongs = (req:Request, res:Response) =>{
         
     })
 }
+
+export const sucesso = (req:Request, res:Response) =>{
+    res.render('pages/sucesso',{
+        
+    })
+}

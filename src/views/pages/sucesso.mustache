@@ -1,0 +1,20 @@
+<html>
+
+<body onload="abriralerta()">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function abriralerta() {
+            swal({
+                text: "Obrigado pelo seu feedback",
+                icon: "success",
+            });
+            setTimeout(function () {
+                window.location.href = "../feedback";
+            }, 5000);
+        }
+    </script>
+
+</body>
+
+</html>

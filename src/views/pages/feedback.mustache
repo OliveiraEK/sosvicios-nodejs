@@ -7,15 +7,19 @@
 <br>
 <br>
 <hr>
-<form action="https://formsubmit.co/ " method="post" >
+<form action="https://formsubmit.co/sosviciossp@gmail.com" method="post" >
+
   <div class="container1">
     <div class="card">
       <div class="card-content">
         <div class="content">
           <div class="field">
+            
+
             <label class="label">Nome</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-rounded has-text-black-light" type="" placeholder="Ex: SOS Vícios" value=""
+              <input type="hidden" name="_next" value="http://localhost:777/sucesso">
+              <input class="input is-rounded has-text-black-light" type="text" name="name" placeholder="Ex: SOS Vícios" value=""
                 required>
               <span class="icon is-small is-left">
                 <i class="fas fa-user"></i>
@@ -26,10 +30,10 @@
           </div>
 
           <div class="field">
-            <label class="label" re>Email</label>
+            <label class="label" type="email" name="email" required>Email</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-rounded has-text-black-light" type="email" placeholder="Ex: sosvicios@gmail.com"
-                value="" required>
+              <input class="input is-rounded has-text-black-light" type="email" name="email" placeholder="Ex: sosvicios@gmail.com"
+                 required>
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope has"></i>
               </span>
@@ -38,9 +42,9 @@
           </div>
 
           <div class="field">
-            <label class="label">Telefone</label>
+            <label class="label" type="telefone" name="telefone">Telefone</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-rounded has-text-black-light" type="text" placeholder="Digite seu telefone"
+              <input class="input is-rounded has-text-black-light" type="text" name="telefone" placeholder="Digite seu telefone"
                 value="" required="">
               <span class="icon is-small is-left">
                 <i class="fa-solid fa-phone-flip"></i>
@@ -80,7 +84,7 @@
           <div class="field">
             <div class="control">
               <label class="checkbox">
-                <input type="checkbox" required>
+                <input type="checkbox" name="checkbox" required="">
                 Eu estou de acordo com os <a href="/termos">termos e condições</a>
               </label>
             </div>
@@ -95,19 +99,11 @@
 
           <div class="field is-grouped">
             <div class="control">
-              <button onclick="abriralerta()" class="button is-link"> Enviar</button>
+              <button  class="button is-link"> Enviar</button>
 
 
 
-              <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-              <script>
-                function abriralerta() {
-                  swal({
-                    text: "Obrigado pelo seu feedback",
-                    icon: "success",
-                  });
-                }
-              </script>
+
               <a href=""></a>
 
 

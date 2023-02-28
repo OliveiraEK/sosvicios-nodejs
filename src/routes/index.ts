@@ -23,6 +23,6 @@ router.get('/voluntario', pageController.voluntario)
 
 router.get('/ongs', pageController.ongs)
 
-
+router.get('/sucesso', pageController.sucesso)
 
 export default router
